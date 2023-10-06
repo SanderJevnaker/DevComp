@@ -14,6 +14,17 @@
 		7420AAFA2AB3A1C5004C44FC /* SpringkillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420AAF92AB3A1C5004C44FC /* SpringkillerTests.swift */; };
 		7420AB042AB3A1C5004C44FC /* SpringkillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420AB032AB3A1C5004C44FC /* SpringkillerUITests.swift */; };
 		7420AB062AB3A1C5004C44FC /* SpringkillerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420AB052AB3A1C5004C44FC /* SpringkillerUITestsLaunchTests.swift */; };
+		7420AB132AB3A312004C44FC /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420AB122AB3A312004C44FC /* MenuManager.swift */; };
+		7420AB152AB44548004C44FC /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420AB142AB44548004C44FC /* PreferencesView.swift */; };
+		7420AB172AB4465E004C44FC /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420AB162AB4465E004C44FC /* PreferencesWindowController.swift */; };
+		7420AB192AB44A0C004C44FC /* PreferencesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420AB182AB44A0C004C44FC /* PreferencesViewModel.swift */; };
+		742DCEF82ACEF37A004967E1 /* VPNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DCEF72ACEF37A004967E1 /* VPNManager.swift */; };
+		742DCEFA2ACEF7D7004967E1 /* EncodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DCEF92ACEF7D7004967E1 /* EncodeManager.swift */; };
+		742DCEFC2ACEF90D004967E1 /* ScriptManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DCEFB2ACEF90D004967E1 /* ScriptManager.swift */; };
+		745CF01B2AB7969100B62263 /* Base64View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CF01A2AB7969100B62263 /* Base64View.swift */; };
+		745CF0232ABA1B1A00B62263 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 745CF0222ABA1B1A00B62263 /* Sparkle */; };
+		748B8E3A2ACDF45C00CD3E63 /* VPNConfigWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748B8E392ACDF45C00CD3E63 /* VPNConfigWindowController.swift */; };
+		748B8E3C2ACDF54800CD3E63 /* VPNConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748B8E3B2ACDF54800CD3E63 /* VPNConfigView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +45,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7420AAE42AB3A1C4004C44FC /* Springkiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Springkiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7420AAE42AB3A1C4004C44FC /* DevComp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevComp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7420AAE72AB3A1C4004C44FC /* SpringkillerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringkillerApp.swift; sourceTree = "<group>"; };
 		7420AAE92AB3A1C4004C44FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7420AAEB2AB3A1C4004C44FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7420AAEE2AB3A1C4004C44FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7420AAF02AB3A1C4004C44FC /* Springkiller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Springkiller.entitlements; sourceTree = "<group>"; };
-		7420AAF52AB3A1C5004C44FC /* SpringkillerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringkillerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7420AAF02AB3A1C4004C44FC /* DevComp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevComp.entitlements; sourceTree = "<group>"; };
+		7420AAF52AB3A1C5004C44FC /* DevCompTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevCompTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7420AAF92AB3A1C5004C44FC /* SpringkillerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringkillerTests.swift; sourceTree = "<group>"; };
-		7420AAFF2AB3A1C5004C44FC /* SpringkillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringkillerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7420AAFF2AB3A1C5004C44FC /* DevCompUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevCompUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7420AB032AB3A1C5004C44FC /* SpringkillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringkillerUITests.swift; sourceTree = "<group>"; };
 		7420AB052AB3A1C5004C44FC /* SpringkillerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringkillerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7420AB122AB3A312004C44FC /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		7420AB142AB44548004C44FC /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		7420AB162AB4465E004C44FC /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
+		7420AB182AB44A0C004C44FC /* PreferencesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewModel.swift; sourceTree = "<group>"; };
+		742DCEF72ACEF37A004967E1 /* VPNManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNManager.swift; sourceTree = "<group>"; };
+		742DCEF92ACEF7D7004967E1 /* EncodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodeManager.swift; sourceTree = "<group>"; };
+		742DCEFB2ACEF90D004967E1 /* ScriptManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptManager.swift; sourceTree = "<group>"; };
+		745CF01A2AB7969100B62263 /* Base64View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64View.swift; sourceTree = "<group>"; };
+		745CF01D2ABA199100B62263 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "../../Downloads/Sparkle-for-Swift-Package-Manager/Sparkle.xcframework/macos-arm64_x86_64/Sparkle.framework"; sourceTree = "<group>"; };
+		748B8E392ACDF45C00CD3E63 /* VPNConfigWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNConfigWindowController.swift; sourceTree = "<group>"; };
+		748B8E3B2ACDF54800CD3E63 /* VPNConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNConfigView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745CF0232ABA1B1A00B62263 /* Sparkle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,33 +98,44 @@
 		7420AADB2AB3A1C4004C44FC = {
 			isa = PBXGroup;
 			children = (
-				7420AAE62AB3A1C4004C44FC /* Springkiller */,
-				7420AAF82AB3A1C5004C44FC /* SpringkillerTests */,
-				7420AB022AB3A1C5004C44FC /* SpringkillerUITests */,
+				7420AAE62AB3A1C4004C44FC /* DevComp */,
+				7420AAF82AB3A1C5004C44FC /* DevCompTests */,
+				7420AB022AB3A1C5004C44FC /* DevCompUITests */,
 				7420AAE52AB3A1C4004C44FC /* Products */,
+				745CF01C2ABA199100B62263 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		7420AAE52AB3A1C4004C44FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7420AAE42AB3A1C4004C44FC /* Springkiller.app */,
-				7420AAF52AB3A1C5004C44FC /* SpringkillerTests.xctest */,
-				7420AAFF2AB3A1C5004C44FC /* SpringkillerUITests.xctest */,
+				7420AAE42AB3A1C4004C44FC /* DevComp.app */,
+				7420AAF52AB3A1C5004C44FC /* DevCompTests.xctest */,
+				7420AAFF2AB3A1C5004C44FC /* DevCompUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7420AAE62AB3A1C4004C44FC /* Springkiller */ = {
+		7420AAE62AB3A1C4004C44FC /* DevComp */ = {
 			isa = PBXGroup;
 			children = (
+				7420AB162AB4465E004C44FC /* PreferencesWindowController.swift */,
 				7420AAE72AB3A1C4004C44FC /* SpringkillerApp.swift */,
 				7420AAE92AB3A1C4004C44FC /* ContentView.swift */,
 				7420AAEB2AB3A1C4004C44FC /* Assets.xcassets */,
-				7420AAF02AB3A1C4004C44FC /* Springkiller.entitlements */,
+				7420AAF02AB3A1C4004C44FC /* DevComp.entitlements */,
 				7420AAED2AB3A1C4004C44FC /* Preview Content */,
+				7420AB122AB3A312004C44FC /* MenuManager.swift */,
+				7420AB142AB44548004C44FC /* PreferencesView.swift */,
+				7420AB182AB44A0C004C44FC /* PreferencesViewModel.swift */,
+				745CF01A2AB7969100B62263 /* Base64View.swift */,
+				748B8E392ACDF45C00CD3E63 /* VPNConfigWindowController.swift */,
+				748B8E3B2ACDF54800CD3E63 /* VPNConfigView.swift */,
+				742DCEF72ACEF37A004967E1 /* VPNManager.swift */,
+				742DCEF92ACEF7D7004967E1 /* EncodeManager.swift */,
+				742DCEFB2ACEF90D004967E1 /* ScriptManager.swift */,
 			);
-			path = Springkiller;
+			path = DevComp;
 			sourceTree = "<group>";
 		};
 		7420AAED2AB3A1C4004C44FC /* Preview Content */ = {
@@ -112,29 +146,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7420AAF82AB3A1C5004C44FC /* SpringkillerTests */ = {
+		7420AAF82AB3A1C5004C44FC /* DevCompTests */ = {
 			isa = PBXGroup;
 			children = (
 				7420AAF92AB3A1C5004C44FC /* SpringkillerTests.swift */,
 			);
-			path = SpringkillerTests;
+			path = DevCompTests;
 			sourceTree = "<group>";
 		};
-		7420AB022AB3A1C5004C44FC /* SpringkillerUITests */ = {
+		7420AB022AB3A1C5004C44FC /* DevCompUITests */ = {
 			isa = PBXGroup;
 			children = (
 				7420AB032AB3A1C5004C44FC /* SpringkillerUITests.swift */,
 				7420AB052AB3A1C5004C44FC /* SpringkillerUITestsLaunchTests.swift */,
 			);
-			path = SpringkillerUITests;
+			path = DevCompUITests;
+			sourceTree = "<group>";
+		};
+		745CF01C2ABA199100B62263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				745CF01D2ABA199100B62263 /* Sparkle.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7420AAE32AB3A1C4004C44FC /* Springkiller */ = {
+		7420AAE32AB3A1C4004C44FC /* DevComp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7420AB092AB3A1C5004C44FC /* Build configuration list for PBXNativeTarget "Springkiller" */;
+			buildConfigurationList = 7420AB092AB3A1C5004C44FC /* Build configuration list for PBXNativeTarget "DevComp" */;
 			buildPhases = (
 				7420AAE02AB3A1C4004C44FC /* Sources */,
 				7420AAE12AB3A1C4004C44FC /* Frameworks */,
@@ -144,14 +186,17 @@
 			);
 			dependencies = (
 			);
-			name = Springkiller;
+			name = DevComp;
+			packageProductDependencies = (
+				745CF0222ABA1B1A00B62263 /* Sparkle */,
+			);
 			productName = Springkiller;
-			productReference = 7420AAE42AB3A1C4004C44FC /* Springkiller.app */;
+			productReference = 7420AAE42AB3A1C4004C44FC /* DevComp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7420AAF42AB3A1C5004C44FC /* SpringkillerTests */ = {
+		7420AAF42AB3A1C5004C44FC /* DevCompTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7420AB0C2AB3A1C5004C44FC /* Build configuration list for PBXNativeTarget "SpringkillerTests" */;
+			buildConfigurationList = 7420AB0C2AB3A1C5004C44FC /* Build configuration list for PBXNativeTarget "DevCompTests" */;
 			buildPhases = (
 				7420AAF12AB3A1C5004C44FC /* Sources */,
 				7420AAF22AB3A1C5004C44FC /* Frameworks */,
@@ -162,14 +207,14 @@
 			dependencies = (
 				7420AAF72AB3A1C5004C44FC /* PBXTargetDependency */,
 			);
-			name = SpringkillerTests;
+			name = DevCompTests;
 			productName = SpringkillerTests;
-			productReference = 7420AAF52AB3A1C5004C44FC /* SpringkillerTests.xctest */;
+			productReference = 7420AAF52AB3A1C5004C44FC /* DevCompTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7420AAFE2AB3A1C5004C44FC /* SpringkillerUITests */ = {
+		7420AAFE2AB3A1C5004C44FC /* DevCompUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7420AB0F2AB3A1C5004C44FC /* Build configuration list for PBXNativeTarget "SpringkillerUITests" */;
+			buildConfigurationList = 7420AB0F2AB3A1C5004C44FC /* Build configuration list for PBXNativeTarget "DevCompUITests" */;
 			buildPhases = (
 				7420AAFB2AB3A1C5004C44FC /* Sources */,
 				7420AAFC2AB3A1C5004C44FC /* Frameworks */,
@@ -180,9 +225,9 @@
 			dependencies = (
 				7420AB012AB3A1C5004C44FC /* PBXTargetDependency */,
 			);
-			name = SpringkillerUITests;
+			name = DevCompUITests;
 			productName = SpringkillerUITests;
-			productReference = 7420AAFF2AB3A1C5004C44FC /* SpringkillerUITests.xctest */;
+			productReference = 7420AAFF2AB3A1C5004C44FC /* DevCompUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7420AADF2AB3A1C4004C44FC /* Build configuration list for PBXProject "Springkiller" */;
+			buildConfigurationList = 7420AADF2AB3A1C4004C44FC /* Build configuration list for PBXProject "DevComp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,13 +262,16 @@
 				Base,
 			);
 			mainGroup = 7420AADB2AB3A1C4004C44FC;
+			packageReferences = (
+				745CF0212ABA1B1A00B62263 /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
 			productRefGroup = 7420AAE52AB3A1C4004C44FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7420AAE32AB3A1C4004C44FC /* Springkiller */,
-				7420AAF42AB3A1C5004C44FC /* SpringkillerTests */,
-				7420AAFE2AB3A1C5004C44FC /* SpringkillerUITests */,
+				7420AAE32AB3A1C4004C44FC /* DevComp */,
+				7420AAF42AB3A1C5004C44FC /* DevCompTests */,
+				7420AAFE2AB3A1C5004C44FC /* DevCompUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748B8E3A2ACDF45C00CD3E63 /* VPNConfigWindowController.swift in Sources */,
+				742DCEFA2ACEF7D7004967E1 /* EncodeManager.swift in Sources */,
+				742DCEFC2ACEF90D004967E1 /* ScriptManager.swift in Sources */,
+				7420AB132AB3A312004C44FC /* MenuManager.swift in Sources */,
+				742DCEF82ACEF37A004967E1 /* VPNManager.swift in Sources */,
+				7420AB192AB44A0C004C44FC /* PreferencesViewModel.swift in Sources */,
+				748B8E3C2ACDF54800CD3E63 /* VPNConfigView.swift in Sources */,
+				745CF01B2AB7969100B62263 /* Base64View.swift in Sources */,
+				7420AB152AB44548004C44FC /* PreferencesView.swift in Sources */,
+				7420AB172AB4465E004C44FC /* PreferencesWindowController.swift in Sources */,
 				7420AAEA2AB3A1C4004C44FC /* ContentView.swift in Sources */,
 				7420AAE82AB3A1C4004C44FC /* SpringkillerApp.swift in Sources */,
 			);
@@ -286,12 +344,12 @@
 /* Begin PBXTargetDependency section */
 		7420AAF72AB3A1C5004C44FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7420AAE32AB3A1C4004C44FC /* Springkiller */;
+			target = 7420AAE32AB3A1C4004C44FC /* DevComp */;
 			targetProxy = 7420AAF62AB3A1C5004C44FC /* PBXContainerItemProxy */;
 		};
 		7420AB012AB3A1C5004C44FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7420AAE32AB3A1C4004C44FC /* Springkiller */;
+			target = 7420AAE32AB3A1C4004C44FC /* DevComp */;
 			targetProxy = 7420AB002AB3A1C5004C44FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -347,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -401,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -413,24 +471,28 @@
 		7420AB0A2AB3A1C5004C44FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = icon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Springkiller/Springkiller.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DevComp/DevComp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Springkiller/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DevComp/Preview Content\"";
 				DEVELOPMENT_TEAM = 39XJN258BT;
+				DONT_GENERATE_INFOPLIST_FILE = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				"GENERATE_INFOPLIST_FILE[sdk=*]" = YES;
+				"INFOPLIST_FILE[sdk=*]" = Yes;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Jevnaker.Springkiller;
+				PRODUCT_BUNDLE_IDENTIFIER = Jevnaker.DevComp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -440,24 +502,27 @@
 		7420AB0B2AB3A1C5004C44FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = icon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Springkiller/Springkiller.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DevComp/DevComp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Springkiller/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DevComp/Preview Content\"";
 				DEVELOPMENT_TEAM = 39XJN258BT;
+				DONT_GENERATE_INFOPLIST_FILE = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = Yes;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Jevnaker.Springkiller;
+				PRODUCT_BUNDLE_IDENTIFIER = Jevnaker.DevComp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -479,7 +544,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Springkiller.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Springkiller";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevComp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DevComp";
 			};
 			name = Debug;
 		};
@@ -498,7 +563,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Springkiller.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Springkiller";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevComp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DevComp";
 			};
 			name = Release;
 		};
@@ -539,7 +604,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7420AADF2AB3A1C4004C44FC /* Build configuration list for PBXProject "Springkiller" */ = {
+		7420AADF2AB3A1C4004C44FC /* Build configuration list for PBXProject "DevComp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7420AB072AB3A1C5004C44FC /* Debug */,
@@ -548,7 +613,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7420AB092AB3A1C5004C44FC /* Build configuration list for PBXNativeTarget "Springkiller" */ = {
+		7420AB092AB3A1C5004C44FC /* Build configuration list for PBXNativeTarget "DevComp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7420AB0A2AB3A1C5004C44FC /* Debug */,
@@ -557,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7420AB0C2AB3A1C5004C44FC /* Build configuration list for PBXNativeTarget "SpringkillerTests" */ = {
+		7420AB0C2AB3A1C5004C44FC /* Build configuration list for PBXNativeTarget "DevCompTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7420AB0D2AB3A1C5004C44FC /* Debug */,
@@ -566,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7420AB0F2AB3A1C5004C44FC /* Build configuration list for PBXNativeTarget "SpringkillerUITests" */ = {
+		7420AB0F2AB3A1C5004C44FC /* Build configuration list for PBXNativeTarget "DevCompUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7420AB102AB3A1C5004C44FC /* Debug */,
@@ -576,6 +641,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		745CF0212ABA1B1A00B62263 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		745CF0222ABA1B1A00B62263 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 745CF0212ABA1B1A00B62263 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7420AADC2AB3A1C4004C44FC /* Project object */;
 }
